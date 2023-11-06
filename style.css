@@ -1,0 +1,41 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: black;
+  background-image: url(pexels-lukas-628241.jpg);
+  background-size: cover;
+}
+
+* {
+  margin: 0px 0px;
+  padding: 0%;
+}
+
+.header {
+  background-color: aqua;
+  margin: 0% 21%;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+}
+
+.mainBody {
+  background-color: blue;
+  height: fit-content;
+  width: fit-content;
+  /* height: 80vh;
+  width: 90vw; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+}
+
+hr {
+  color: black;
+}

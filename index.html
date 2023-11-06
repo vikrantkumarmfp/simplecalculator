@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Colorful Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="icons8-calculator-64.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="header">Colorful Calculator</h1>
+    </header>
+
+    <main>
+      <div class="mainBody">
+        <label for="firstNumber">
+          Enter Your First Number:
+          <input type="number" id="firstNumber" required />
+        </label>
+        <br />
+
+        <label for="secondNumber"
+          >Enter Your Second Number:
+          <input type="number" id="secondNumber" required />
+        </label>
+        <br />
+
+        <label for="result">
+          Your result Number is : <input type="number" id="result" disabled />
+        </label>
+        <br />
+        <button class="Add">Addition</button>
+        <button id="Sub">Subtraction</button>
+        <button id="Multiply">Multiply</button>
+        <button id="Divide">Divide</button>
+        <button id="Clear">Clear</button>
+        <button id="clearResult">Clear Result only</button>
+        <hr />
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://icons8.com/">
+        <img src="icons8-calculator-64.png" height="20px" /> Icon designed using
+        icons 8
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
